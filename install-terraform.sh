@@ -17,5 +17,3 @@ sudo tee /etc/apt/sources.list.d/hashicorp.list > /dev/null 2>&1
 sudo apt update > /dev/null 2>&1
 
 sudo apt-get install terraform=1.7.0-1 -y < "/dev/null"
-
-clear
