@@ -16,6 +16,6 @@ https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
 sudo tee /etc/apt/sources.list.d/hashicorp.list > /dev/null 2>&1
 sudo apt update > /dev/null 2>&1
 
-sudo apt-get install terraform=1.6.6-1 -y < "/dev/null"
+sudo apt-get install terraform=1.7.0-1 -y < "/dev/null"
 
 clear
